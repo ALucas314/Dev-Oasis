@@ -21,7 +21,7 @@ header {
 
 li {
     display: inline-block;
-    margin: 30px; /* Increase margin for larger screens */
+    margin: 30px; 
 }
 
 a {
@@ -34,9 +34,9 @@ a:hover {
 }
 
 #inscreva-se-btn {
-    border: 3px solid rgb(132, 14, 201); /* Increase border thickness */
-    padding: 15px; /* Increase padding */
-    border-radius: 20px; /* Increase border radius */
+    border: 3px solid rgb(132, 14, 201); 
+    padding: 15px; 
+    border-radius: 20px; 
 }
 
 #inscreva-se-btn:hover {
@@ -47,17 +47,17 @@ a:hover {
 h1 {
     font-weight: 200;
     text-align: center;
-    font-size: 36px; /* Increase font size */
+    font-size: 36px;
 }
 
 main {
     display: flex;
     flex-direction: row;
-    margin-top: 100px; /* Increase margin top */
+    margin-top: 100px; 
 }
 
 h2 {
-    font-size: 40px; /* Increase font size */
+    font-size: 40px; 
     line-height: 15px;
     font-family: poppinsmedium;
     justify-content: center;
@@ -73,28 +73,28 @@ span {
 p {
     font-family: poppinslight;
     text-align: center;
-    padding: 20px; /* Increase padding */
-    margin: 0;
+    padding: 20px; /* Espaçamento interno no parágrafo */
+    margin: 20px 0; /* Espaçamento entre uma linha e outra no parágrafo */
     border: 3px solid rgb(132, 14, 201);
-    border-radius: 15px; /* Adjust border radius */
+    border-radius: 15px;
     box-sizing: border-box;
-    max-width: 1000px; /* Increase maximum width */
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 img {
-    width: 800px; /* Increase image width */
+    width: 800px; 
 }
 
 form {
     display: flex;
     flex-direction: column;
-    width: 80%; /* Increase form width */
+    width: 80%; 
 }
 
 form [type="submit"] {
-    height: 60px; /* Increase button height */
-    width: 60%; /* Increase button width */
+    height: 60px; 
+    width: 60%; 
     background-color: rgb(132, 14, 201);
     color: white;
     font-weight: bold;
@@ -105,10 +105,10 @@ form [type="submit"]:hover {
 }
 
 input {
-    margin-top: 30px; /* Increase margin top */
-    height: 30px; /* Increase input height */
-    padding: 20px; /* Increase padding */
-    border-radius: 30px; /* Increase border radius */
+    margin-top: 30px; 
+    height: 30px;
+    padding: 20px; 
+    border-radius: 30px; 
     border: none;
-    font-size: 20px; /* Increase font size */
+    font-size: 20px; 
 }
